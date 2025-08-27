@@ -48,3 +48,6 @@ In this exercise I learned how to add a border to the inside of the card using:
   outline-offset:-1px;
 }
 ```
+
+The things I had a lot of difficulty with was making it responsive without using media queries and instead trying to use the clamp function for the text
+and the card, particularly determining the 'val' argument. In the end I gave up and just used media queries. 
