@@ -43,6 +43,11 @@ html {
   letter-spacing: 0px;
 }
 
+a {
+  text-decoration:none;
+  color:inherit;
+}
+
 body {
   height:100vh;
   background-color: var(--accent);
@@ -84,6 +89,12 @@ body {
   border:none;
   margin-bottom:12px;
   color:var(--dark);
+  cursor:pointer;
+}
+
+.tag:hover, .tag:active, .tag:focus {
+  background-color:var(--dark);
+  color:var(--accent);
 }
 
 .publication-date {
@@ -116,10 +127,17 @@ body {
   width:32px;
   height:32px;
   border-radius: 50%;
+  cursor:pointer;
 }
 
 .author-name {
   margin-left:12px;
+  cursor:pointer;
+  color:var(--dark);
+}
+
+.author-name:hover {
+  color:var(--grey);
 }
 
 .attribution { 
