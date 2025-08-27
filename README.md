@@ -26,8 +26,8 @@ Create a blog preview card where users can:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/kelseyjhayes/Blog-Preview-Card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/kelseyjhayes/Blog-Preview-Card)
+- Live Site URL: [Live Site](https://your-live-site-url.com)
 
 ## My process
 
@@ -39,10 +39,11 @@ Create a blog preview card where users can:
 
 ### What I learned
 
-In this exercise I learned how to add a border to the inside using:
+In this exercise I learned how to add a border to the inside of the card using:
 
 ```css
 .card {
+  border:none;
   outline:1px solid var(--dark);
   outline-offset:-1px;
 }
