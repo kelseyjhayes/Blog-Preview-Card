@@ -27,7 +27,7 @@ Create a blog preview card where users can:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/kelseyjhayes/Blog-Preview-Card)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://kelseyjhayes.github.io/Blog-Preview-Card/)
 
 ## My process
 
