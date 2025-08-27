@@ -49,5 +49,4 @@ In this exercise I learned how to add a border to the inside of the card using:
 }
 ```
 
-The things I had a lot of difficulty with was making it responsive without using media queries and instead trying to use the clamp function for the text
-and the card, particularly determining the 'val' argument. In the end I gave up and just used media queries. 
+The thing I had a lot of difficulty with was making it responsive without using media queries. I knew I needed to use the clamp function, but I wasn't sure how to determine the 'val' input. Even after figuring out how to calculate this I ran into issues, but eventually it seemed to work out okay. 

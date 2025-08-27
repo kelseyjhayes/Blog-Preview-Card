@@ -18,28 +18,28 @@ html {
 
 .text-preset-1 {
   font-weight:800;
-  font-size: 1.5rem;
+  font-size: clamp(1.25rem, 1.162rem + 0.376vw, 1.5rem);
   line-height: 150%;
   letter-spacing: 0px;
 }
 
 .text-preset-2 {
   font-weight:400;
-  font-size:1rem;
+  font-size:clamp(0.875rem, 0.831rem + 0.188vw, 1rem);
   line-height: 150%;
   letter-spacing: 0px;
 }
 
 .text-preset-3 {
   font-weight:500;
-  font-size:0.875rem;
+  font-size:clamp(0.75rem, 0.706rem + 0.188vw, 0.875rem);
   line-height:150%;
   letter-spacing: 0px;
 }
 
 .text-preset-4 {
   font-weight:800;
-  font-size: 0.875rem;
+  font-size: clamp(0.75rem, 0.706rem + 0.188vw, 0.875rem);
   line-height: 150%;
   letter-spacing: 0px;
 }
@@ -60,8 +60,8 @@ body {
   outline-offset: -1px;
   box-shadow:8px 8px 0 rgb(0,0,0);
   background-color: var(--white);
-  width:384px;
-  height: 522px;
+  width:clamp(20.438rem, 19.183rem + 5.352vw, 24rem);
+  height: clamp(31.313rem, 30.85rem + 1.972vw, 32.625rem);
   margin: 100px auto;
   padding:24px;
   border-radius:20px;
@@ -72,7 +72,9 @@ body {
 }
 
 .illustration {
+  width:clamp(17.438rem, 16.183rem + 5.352vw, 21rem);
   height:200px;
+  object-fit: cover;
   align-self:center;
   border-radius:10px;
 }
@@ -97,7 +99,7 @@ body {
 
 .publication-date {
   margin-bottom:12px;
-  color:var(--dark);
+  color:var(--grey);
 }
 
 .course {
