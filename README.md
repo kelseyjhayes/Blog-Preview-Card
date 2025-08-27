@@ -22,7 +22,7 @@ Create a blog preview card where users can:
 
 ### Screenshot
 
-
+![screenshot](./screenshot.png)
 
 ### Links
 
