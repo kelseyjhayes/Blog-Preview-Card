@@ -13,32 +13,33 @@
 
 html {
   font-family: Figtree, sans-serif;
+  font-size:16px;
 }
 
 .text-preset-1 {
   font-weight:800;
-  font-size:24px;
+  font-size: clamp(1.25rem, 1.5vw + 1rem, 1.5rem);
   line-height: 150%;
   letter-spacing: 0px;
 }
 
 .text-preset-2 {
   font-weight:400;
-  font-size:16px;
+  font-size:clamp(0.875rem, 0.875vw + 1rem, 1rem);
   line-height: 150%;
   letter-spacing: 0px;
 }
 
 .text-preset-3 {
   font-weight:500;
-  font-size:14px;
+  font-size:clamp(0.75rem, 1.5vw + 1rem, 0.875rem);
   line-height:150%;
   letter-spacing: 0px;
 }
 
 .text-preset-4 {
   font-weight:800;
-  font-size:14px;
+  font-size: clamp(0.75rem, 1.5vw + 1rem, 0.875rem);
   line-height: 150%;
   letter-spacing: 0px;
 }
@@ -74,7 +75,6 @@ body {
   height:200px;
   align-self:center;
   border-radius:10px;
-  margin-bottom:24px;
 }
 
 .content {
@@ -87,6 +87,7 @@ body {
   padding: 4px 12px;
   border-radius:4px;
   border:none;
+  margin-top:24px;
   margin-bottom:12px;
   color:var(--dark);
   cursor:pointer;
